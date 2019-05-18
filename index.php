@@ -19,22 +19,28 @@
 
 <div id="content-box">
     <div id="content-img-box">
-        <a href="/1.php">
+    <a href="/1.php">
             <span class="img-text-box">     
                 <img src="1.jpg" alt="">
-                <div class="content-text">API 슈팅게임</div>
+                <div class="content-text">게임 1</div>
+                <br>
+                <div class="content-ex-text">게임 1 설명</div>
             </span>
         </a>
         <a href="/2.php">
             <span class="img-text-box">
                 <img src="2.jpg" alt="">
-                <div class="content-text">Unity 슈팅게임</div>
+                <div class="content-text">게임 2</div> 
+                <br>
+                <div class="content-ex-text">게임 2 설명</div>           
             </span>
         </a>
         <a href="/3.php">
             <span class="img-text-box">               
                 <img src="3.jpg" alt="">
-                <div class="content-text">Unity 로그라이크</div>
+                <div class="content-text">게임 3</div>
+                <br>
+                <div class="content-ex-text">게임 3 설명</div>
             </span>
         </a>
     </div>

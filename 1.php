@@ -1,11 +1,14 @@
 <?php
     require __DIR__ . '/header.php';
 ?>
-
-<div>
-임상우 게임이 들어갈 곳 No.1
+<body>
+<div id="header-eximg-box">
+    <img src="1.jpg" alt="">
+    <div class="header-ex-box">게임 1 이름 <br> 장르: <br> 소개: <br> <br>
+    <div class="header-exp">게임 설명:</div>
+    </div>
 </div>
-
+<body>
 <?php
     require __DIR__ . '/footer.php';
 ?>
