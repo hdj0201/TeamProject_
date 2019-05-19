@@ -12,7 +12,7 @@
 .login_box .login_index {
     text-align : center;
     width : 350px;
-    border : 2px solid rgb(0, 173, 181);
+    border : 2px solid #ec6a5c;
 }
 
 .login_box .index_box {
@@ -26,7 +26,7 @@
 }
 
 .login_box .login_box_size {
-    width : 70%;
+    width : 80%;
     height : auto;
     margin : auto;
 }
@@ -56,12 +56,13 @@
 }
 
 .info #login_input_text {
-    background: gray;
+    background: #b9b9b9;
+    color : #797979;
 }
 
 #login_btn {
     margin-top : 10px;
-    background :  rgb(0, 173, 181);
+    background :  #ec6a5c;
     color : white;
     cursor : pointer;
 }
@@ -90,7 +91,7 @@
     float : right;
     right : 100px;
     height : auto;
-    color : rgb(171, 172, 174);
+    color : #b1b1b1;
     font-size : 10px;
 }
 
@@ -104,11 +105,11 @@
 }
 
 .login_join #login_join_joinbtn {
-    color : white;
+    color : #323232;
 }
 
 .login_join a {
-    color : white;
+    color : #b1b1b1;
 }
 
 input::placeholder {
@@ -117,7 +118,7 @@ input::placeholder {
 
 #join_btn {
     margin-top : 20px;
-    background: rgb(0, 173, 181);
+    background: #ec6a5c;
     color: white;
     cursor: pointer;
 }

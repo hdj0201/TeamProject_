@@ -2,15 +2,16 @@
     require __DIR__ . '/header.php';
 ?>
 
+
 <div id="slide-box-wrap">
         <!-- <img src="2.jpg" alt="">
         <img src="3.jpg" alt=""> -->
         <div id="slide-img-box">
-            <a id="img-link" href="/1.php"><img src="1.jpg" alt="" id="slide-img"></a>
+            <a id="img-link" href="/1.php"><img src="/resource/1.jpg" alt="" id="slide-img"></a>
         </div>
         
-        <button type="button" id="slide-left-btn" class="slide-btn" onclick="backSlide()"><img class="slide-btn-img" src="left-slide-btn.png" ></button> 
-        <button type="button" id="slide-right-btn" class="slide-btn" onclick="nextSlide()"><img class="slide-btn-img" src="right-slide-btn.png" ></button>
+        <button type="button" id="slide-left-btn" class="slide-btn" onclick="backSlide()"><img class="slide-btn-img" src="/resource/arrow-left.png" ></button> 
+        <button type="button" id="slide-right-btn" class="slide-btn" onclick="nextSlide()"><img class="slide-btn-img" src="/resource/arrow-right.png"></button>
 </div>
 
 <div id="section-box">
@@ -21,7 +22,7 @@
     <div id="content-img-box">
     <a href="/1.php">
             <span class="img-text-box">     
-                <img src="1.jpg" alt="">
+                <img src="/resource/1.jpg" alt="">
                 <div class="content-text">게임 1</div>
                 <br>
                 <div class="content-ex-text">게임 1 설명</div>
@@ -29,7 +30,7 @@
         </a>
         <a href="/2.php">
             <span class="img-text-box">
-                <img src="2.jpg" alt="">
+                <img src="/resource/2.jpg" alt="">
                 <div class="content-text">게임 2</div> 
                 <br>
                 <div class="content-ex-text">게임 2 설명</div>           
@@ -37,7 +38,7 @@
         </a>
         <a href="/3.php">
             <span class="img-text-box">               
-                <img src="3.jpg" alt="">
+                <img src="/resource/3.jpg" alt="">
                 <div class="content-text">게임 3</div>
                 <br>
                 <div class="content-ex-text">게임 3 설명</div>

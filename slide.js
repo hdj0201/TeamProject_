@@ -8,14 +8,12 @@ function changeSlideImg(pos) {
     var img_link = document.getElementById('img-link');
 
     console.log(pos);
-    slide_img.src = (pos + 1)+".jpg";
-    //console.log(img_link);
-
+    slide_img.src = "/resource/"+(pos + 1)+".jpg";
 
     var link = '/' + (pos+1) + '.php';
     
     img_link.setAttribute('href', link);
-    console.log(img_link);
+    // console.log(img_link);
 }
 
 function changeSlidePos(pos) {

@@ -1,11 +1,11 @@
 <?php
     require __DIR__ . '/header.php';
 
-    session_start();
+    // session_start();
 
-    // $db = new PDO("mysql:host=localhost;dbname=bloghomepage", "root", "");
      $db = new PDO("mysql:host=localhost;dbname=myhomepage", "root", "");
-
+    // $db = new PDO("localhost;", "blueeads", "root");
+    // $sql = 
     if (isset($_POST['user_id']) && isset($_POST['user_pw'])) {
         $user_id = $_POST['user_id'];
         $user_pw = $_POST['user_pw'];
@@ -17,7 +17,7 @@
 
         if ($user) {
             $_SESSION['user'] = $user;
-            echo "<script>alert('로그인이 완료되었습니다.'); location.href = './main.php';</script>";
+            echo "<script>alert('로그인이 완료되었습니다.'); location.href = './';</script>";
         } else {
             echo "<script>alert('존재하지 않는 유저입니다.'); location.href = '#';</script>";
         }
@@ -34,7 +34,7 @@
         <div class = login_box_size>
 
             <div class = "login_logo">
-                <img src="logo.png" alt="" width = "100px" height = "100px">
+                <img src="/resource/logo.png" alt="" width = "100px" height = "100px">
             </div>
             
             <div class = "info">

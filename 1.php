@@ -3,7 +3,7 @@
 ?>
 <body>
 <div id="header-eximg-box">
-    <img src="1.jpg" alt="">
+    <img src="/resource/1.jpg" alt="">
     <div class="header-ex-box">게임 1 이름 <br> 장르: <br> 소개: <br> <br>
     <div class="header-exp">게임 설명:</div>
     </div>

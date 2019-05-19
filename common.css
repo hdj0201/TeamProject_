@@ -39,8 +39,14 @@ button img:hover {
 }
 
 #header-title-box {
+    background : rgb(236,106,92);
     width: 100%;
     height: 50%;
+}
+
+#btn-form {
+    display : inline-block;
+    position : absolute;
 }
 
 #design-text {
@@ -81,13 +87,13 @@ button img:hover {
 
 #header-box #login-box {
     float:right;
+    margin-top : 10px;
 }
 
 #header-box .header-btn {
     color:white;
-    background : #49c5b6;
     height: 100%;
-    width: 10.5%;
+    width: 20%;
     font-size: 17px;
     font-weight: 700;
 }
@@ -101,6 +107,15 @@ button img:hover {
 #header-title a:hover {
     text-decoration: underline;
     color: gray;
+}
+
+#logout-btn {
+    border: none;
+    cursor: pointer;
+    width : 64.5px;
+    height : 35px;
+    padding : 0;
+    margin : 0;
 }
 
 /* section */
