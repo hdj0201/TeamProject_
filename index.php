@@ -23,25 +23,25 @@
     <a href="/1.php">
             <span class="img-text-box">     
                 <img src="/resource/1.jpg" alt="">
-                <div class="content-text">게임 1</div>
+                <div class="content-text">Jumping ball</div>
                 <br>
-                <div class="content-ex-text">게임 1 설명</div>
+                <div class="content-ex-text">공을 좌우로 튕겨서 장애물을 피하는 게임이다</div>
             </span>
         </a>
         <a href="/2.php">
             <span class="img-text-box">
                 <img src="/resource/2.jpg" alt="">
-                <div class="content-text">게임 2</div> 
+                <div class="content-text">준비중</div> 
                 <br>
-                <div class="content-ex-text">게임 2 설명</div>           
+                <div class="content-ex-text">준비중</div>           
             </span>
         </a>
         <a href="/3.php">
             <span class="img-text-box">               
                 <img src="/resource/3.jpg" alt="">
-                <div class="content-text">게임 3</div>
+                <div class="content-text">준비중</div>
                 <br>
-                <div class="content-ex-text">게임 3 설명</div>
+                <div class="content-ex-text">준비중</div>
             </span>
         </a>
     </div>

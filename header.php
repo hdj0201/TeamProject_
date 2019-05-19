@@ -17,9 +17,9 @@
 ?>
 <body>
     <div id="header-box">
-        <div id="header-design-box"> 
+        <!-- <div id="header-design-box"> 
             <div id="design-text">The awards of design, creativity and innovation on the internet</div>
-        </div>
+        </div> -->
         <div id="header-title-box">  
             <div id="menu-box" class="header-btn"> <img class = "icon-btn" src="/resource/logo.png" alt="" width = "100px" height = "64px" onclick="location.href='/'"> </div>
             
